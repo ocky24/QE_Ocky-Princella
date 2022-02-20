@@ -1,1 +1,8 @@
 Perubahan di branch master
+Perubahan di branch development
+
+melakukan perubahan di branch fitur1
+fitur1 fitur1 fitur1 fitur1
+
+melakukan perubahan di branch fitur2
+fitur2 fitur2 fitur2 fitur2
