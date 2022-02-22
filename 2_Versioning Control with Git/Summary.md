@@ -20,10 +20,13 @@ Menghubungkan GIT dan Github
 -> buat folder di documents
 -> lalu masuk ke folder tersebut (cd nama folder)
 
-|git config --global user.name "username"
-|git config --global user.email "email yang di github"
-|git init
-|git remote add origin <remote_repo_url> ini ada di code github)
+git config --global user.name "username"
+
+git config --global user.email "email yang di github"
+
+git init
+
+git remote add origin <remote_repo_url> ini ada di code github)
 
 Menambahkan file
 ----------------
