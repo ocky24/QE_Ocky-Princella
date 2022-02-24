@@ -59,7 +59,8 @@ concern:
 
 Maintenance
 ------------
-Setelah aplikasi di release ke konsumen, untuk meningkatkan 
+Setelah aplikasi di release ke konsumen.
+pengujian regresi jenis pengujian perangkat lunak untuk mengkonfirmasi bahwa fitur baru atau perubahan kode tidak mempengaruhi fitur yang ada.
 
 
 Level of Testing
@@ -68,3 +69,23 @@ Unit testing
 Integration Testing
 System Testing
 Acceptance Testing
+
+
+##TASK PRAKTIKUM
+==============
+Tugas pertama adalah menyimpulkan hasil testing berdasarkan line coverage dan mutation.
+
+mutasi:
+2/3 => 2 killable, 1 non-killable. kita harus tambah mutasi lagi. Agar sampai killable semua.
+3/4 => 3 killable, 1 non-killable. kita harus tambah mutasi lagi. Agar sampai killable semua.
+
+line coverage:
+Entity: 6/9 berarti yang sudah ditesting 6 baris dari 9 baris.
+Service: 6/6 berarti yang sudah ditesting 6 baris dari 6 baris.
+
+Tugas kedua adalah menyimpulkan hasil dari function.
+1. Terdapat kelas bernama CalculatorServiceImpl
+2. Di dalamnya terdapat fungsi Add (menambahkan) dan Substract (Mengurangkan)
+3. Terdapat 3 variabel yakni a, b, dan c dengan jenis data integer.
+4. a dan b merupakan bilangan yang kita masukan
+5. c untuk mengeluarkan hasil penjumlahan dan pengurangan
