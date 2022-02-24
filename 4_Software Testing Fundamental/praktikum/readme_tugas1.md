@@ -30,15 +30,7 @@ Semakin besar maka semakin baik. => semakin banyak terbunuh semakin baik.
 
 ###mutation score: <100 % berarti perlu ditambah test case. sehingga mutant non killable menjadi killable dan mutation score menjadi 100%
 
-
-
-
-mutasi:
-
+Pada soal tersebut, keduanya belum 100%
 
 2/3 => 2 killable, 1 non-killable. kita harus tambah mutasi lagi. Agar sampai killable semua.
-
-
-
-
-yang kedua lebih baik karena line coverage dan mutation nya lebih besar dibanding yang pertama.
+3/4 => 3 killable, 1 non-killable. kita harus tambah mutasi lagi. Agar sampai killable semua.
