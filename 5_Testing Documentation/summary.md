@@ -24,9 +24,9 @@
 
 ### Test Scenario Example
 **login**
--Check Login functionality
--Check Forgot Email Functionality
--Check Create New Account Functionality
+- Check Login functionality
+- Check Forgot Email Functionality
+- Check Create New Account Functionality
 
 
 ## Test Case
@@ -51,7 +51,7 @@
 
 ## Task 
 
--Tugas dari praktikum adalah membuat test case sebanyak banyaknya dari aktivitas login, pilih produk dan pembayaran dari sepulsa.com
--tugas dikerjakan dengan excel
--Terdiri atas nomor, test case id, feature, test scenario, test case,  pre conditions, test step, test data,expected result, post condition 
+- Tugas dari praktikum adalah membuat test case sebanyak banyaknya dari aktivitas login, pilih produk dan pembayaran dari sepulsa.com
+- tugas dikerjakan dengan excel
+- Terdiri atas nomor, test case id, feature, test scenario, test case,  pre conditions, test step, test data,expected result, post condition 
 
