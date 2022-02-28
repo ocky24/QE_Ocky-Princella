@@ -1,13 +1,16 @@
 ## Penjelasan tugas praktikum
 
 * Saya mengerjakan tugas praktikum dengan mengamati sepulsa.com dan mencari bug
+* hasil dapat diliat pada folder screenshot
+
+
 * Adapun bug yang saya temukan antara lain:
-      - Fitur lupa password : pesan untuk mengubah password tidak terkirim ke email.
-      - fitur produk : ketika meng-klik sekitar icon, kita langsung masuk ke halaman produk, padahal seharusnya hanya di iconnya saja.
-      - fitur PDAM : 
-              - nomor pelanggan asal-asalan, tapi resultnya tagihan telah lunas
-              - bisa mengetikkan huruf ke input field, padahal seharusnya tidak bisa karena memperbesar terjadinya kesalahan bagi pengguna.
-      - fitur top up shopee : ketika memilih metode pembayaran seharusnya yang tidak bisa dihilangkan saja/ di disable saja, seperti pembayaran menggunakan shopee pay. (tapi kenyataannya malah bisa dan muncul notif untuk mengganti metode pembayaran)
+  * Fitur lupa password : pesan untuk mengubah password tidak terkirim ke email.
+  * fitur produk : ketika meng-klik sekitar icon, kita langsung masuk ke halaman produk, padahal seharusnya hanya di iconnya saja.
+  * fitur PDAM : 
+     * nomor pelanggan asal-asalan, tapi resultnya tagihan telah lunas
+     * bisa mengetikkan huruf ke input field, padahal seharusnya tidak bisa karena memperbesar terjadinya kesalahan bagi pengguna.
+  * fitur top up shopee : ketika memilih metode pembayaran seharusnya yang tidak bisa dihilangkan saja/ di disable saja, seperti pembayaran menggunakan shopee pay. (tapi kenyataannya malah bisa dan muncul notif untuk mengganti metode pembayaran)
 
 * pada JIRA, saya membuat panel :
      - to do
@@ -33,3 +36,4 @@
    - pindahkan juga issue bug jadi done.
    - Hal ini saya lakukan untuk semua story.
    - lalu hasil screenshot yang saya berikan : screenshot history story, screenshot penjelasan bug, screenshot keseluruhan panel, screenshot backlog.
+

@@ -57,6 +57,9 @@ software untuk mengelola proyek seperti JIRA, Trelo dsb.
 - Practice : membuat simulasi terjadinya bug pada JIRA. minimal 5 bug. kemudian kita melampirkan step2 pengerjaan.
 
 * Saya mengerjakan tugas praktikum dengan mengamati sepulsa.com dan mencari bug
+* hasil dapat dilihat pada folder sceenshot
+
+
 * Adapun bug yang saya temukan antara lain:
   * Fitur lupa password : pesan untuk mengubah password tidak terkirim ke email.
   * fitur produk : ketika meng-klik sekitar icon, kita langsung masuk ke halaman produk, padahal seharusnya hanya di iconnya saja.
