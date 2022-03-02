@@ -2,6 +2,9 @@
 
 - Mengamati website todoist dan menentukan 4 fitur yang akan dibuat test casenya
 - test case terdiri atas positif dan negatif case
+- saya mengerjakan 1 milestone = 1 fitur
+- 1 milestone = 1 test run
+- 1 test run = minimal 2 test case (positif dan negatif)
 
 ## Fitur yang diamati
 - fitur login
