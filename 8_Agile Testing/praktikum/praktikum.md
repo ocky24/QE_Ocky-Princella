@@ -1,6 +1,6 @@
 ## SOAL dan Jawaban PRaktikum
 
-1. Pada fase apa saja QE berperan pada proses SDLC? sebutkan dan jelaskan peran seperti apa yang QE dapat lakukan pada setiap fase tersebut!
+**1. Pada fase apa saja QE berperan pada proses SDLC? sebutkan dan jelaskan peran seperti apa yang QE dapat lakukan pada setiap fase tersebut!**
 jawab:
 
 Qe dapat berperan dalam fase 
@@ -30,7 +30,7 @@ ini merupakan fase terpenting bagi QE
 * tahap ini juga berlaku apabila ingin meningkatkan fitur aplikasi
 
 
-2. Menurut teman teman, apa tantangan ketika menerapkan agile testing? berikan penjelasan pada masing masing 5 poin agile testing manifesto!
+**2. Menurut teman teman, apa tantangan ketika menerapkan agile testing? berikan penjelasan pada masing masing 5 poin agile testing manifesto!**
 Jawab:
 
 1. Testing is an activity not a phase = Karena testing adalah aktivitas, bukan fase, maka dilakukan beriringan dengan proses development. Tantangan yang dihadapi apabila testing dilakukan di akhir, maka QE harus mengetest software/aplikasi secara keseluruhan dan itu memerlukan waktu lama.
