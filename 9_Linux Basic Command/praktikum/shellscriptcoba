@@ -1,0 +1,33 @@
+#!/bin/bash
+clear
+echo "Halo, selamat datang!"
+read -p "Silahkan masukan namamu: " myname
+echo "Hai, $myname"
+read -p "Silahkan masukan usiamu: " usia
+echo "sip, usiamu adalah : $usia Tahun"
+echo "memasukan namamu dalam list..."
+echo "$myname $usia Tahun" >> list.txt
+cat list.txt
+
+read -p "Jika sudah benar, tekan x :" x
+clear
+
+echo "Penjumlahan"
+read -p "masukan angka pertama: " angka1
+
+read -p "masukan angka kedua: " angka2
+
+sum=$((angka1+angka2))
+
+echo "hasilnya=$sum"
+
+echo "Thankyou...."
+
+Penjelasan:
+1. echo untuk memasukan tulisan ke dalam file tersebut dan menampilkannya
+2. read -p untuk input ke dalam variabel yakni nama, umur, angka1, dan angka2
+3. clear membersihkan command2 sebelumnya
+4. cat untuk menampilkan isi dari file
+5. Ada operasi penjumlahan juga dengan menambahkan 2 variabel
+
+screenshot untuk task 1 dan 2 [https://drive.google.com/file/d/1BPnolH2hR_bkt36I0pCExY0a3xwd1Xx4/view?usp=sharing]
