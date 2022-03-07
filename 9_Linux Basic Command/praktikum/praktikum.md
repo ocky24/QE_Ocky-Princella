@@ -1,4 +1,4 @@
-1. **cal = nampilin kalender, tapi windows tidak ada**
+1. **cal = nampilin kalender, tapi windows tidak ada dan di gitbash gada**
 2. date
     * C:\>date
 3. touch = echo
@@ -9,7 +9,8 @@
     * C:\testoo>copy testooo.txt d:\
 6. mv = move 
     * C:\testoo>move testooo.txt c:\testolagi
-7. **rm = belum ketemu**
+7. rm = rd
+    * C:\Users\Ocky>rd LALA
 8. mkdir
     * C:\>mkdir testolagi
 9. rmdir
@@ -25,13 +26,17 @@
     * C:\>doskey/History
 15. ls =dir
     * c:\dir
-16. which =where
+16. which = where
     * C:\>where github
 17. sudo = runas
 18. find
     * C:\>find "mau cari teks ini" C:\testoo\testooo.txt
-19. **chmod = tidak ketemu**
-20. **chown = tidak ketemu**
+19. **chmod = tidak ketemu, penjelasan ada di bawah**
+    r doang 3
+    rw 5
+    rwx 7
+20. **chown = tidak ketemu,penjelasan ada di bawah**
+
 
 ## Keterangan dari setiap command linux.
 
