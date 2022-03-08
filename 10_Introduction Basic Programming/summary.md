@@ -61,13 +61,80 @@
                 - 'a', 'L', 't', 'e','r','r','a'  **(indeks 0,1,2,3,4,5,6)**
             }
             system.out.println(alterra[0]); **(manggil isi array indeks ke 0 yaitu 'a') kalo indeksnya lebih dia error**
-        }
-    }
+     -  }
+-   }
 
 
 **Operator**
 - untuk operasi tertentu
-1. Assignment (=)           :
-2. Arithmetic (+,-,*,/,%)   :
-3. Unary (+,-,++,--,!)      :
-4. Equality dan Relational 
+1. Assignment (=)           : memberikan nilai dalam satu variabel, contoh string word = "alteraa".
+Variable word berisikan alteraa
+2. Arithmetic (+,-,*,/,%)   : ekspresi matematika, tambah kurang kali bagi persen.
+    - int a = 10;
+    - int b = 15;
+    - system.out.prinln(a+b);
+    - *atau*
+    - int sum = (a+b);
+    - system.out.println("hasil dari penjumlahan : " + sum);
+3. Unary                    : 
+    - (+)   : membuat nilai jadi positif
+    - (-)   : membuat nilai jadi negatif
+    - (++)  : increment menambahkan nilai 1
+    - (--)  : decrement mengurangi nilai 1
+    - (!)   : kebalikan nilai boolean, true jadi false
+4. Equality dan Relational  : membandingkan 2 buah nilai, hasilnya adalah boolean true/false
+    - (==)  : sama
+    - (!=)  : tidak sama dengan
+    - (>)   : lebih besar
+    - (>=)  : lebih besar sama dengan
+    - (<)   : kurang dari
+    - (<=)  : kurang dari sama dengan 
+    - contoh : int a b yang tadi itu
+    - float result = b/a
+    - boolean result = a > b
+    - maka hasilnya false, krn a < b
+5. Conditional              : 
+    - &&    : dan, jika kedua kondisi true maka true
+    - ||    : atau, salah satu true, maka true
+
+**Input Output**
+- scanner = input dari keyboard, jadi kaya bikin variabel, terus nanti datanya dimasukin dengan cara kita ketikin gitu.
+- Keyboard, File, Network, Program = > Java Program => "Character Stream" (reader & writer)
+- "Byte" Streams (input streams & Output streams) => Java program => console, file, network, program.
+
+**Branching**
+- if then = 2 kondisi aja
+- if (belanja > 10000) {
+-   system.out.println("Selamat blablabla");
+-   }
+- system.out.println("kondisi kedua");
+-
+
+- if then else = else if buat nambahin kondisi lagi dan terakhir pake else.
+
+- switch = ada switch (lampu) {
+- case "merah" :
+-   system.out.println("ini lampu merah");
+- break; (buat ngehentiin ngebaca case lainnya)
+- case "kuning" :
+-   system.out.println("ini lampu kuning");
+- break; 
+- default: (ini buat kalo gada yang cocok sama semua case)
+- system.out.println("lampu salah");
+
+- }
+
+**Looping**
+- countloop = loopnya jumlah perulangan pasti (for)
+- uncountloop = loppnya ga terhitung/ga pasti (while dan do-while)
+- *for*
+- for (int i =1; i<=5;1++) {
+-   system.out.println("INI YANG DICETAK NTAR")
+- }
+
+- while = akan menjalankan ketika bernilai true. cek dulu, baru jalanin
+- do-while = 1 kali perulangan dulu, baru cek kondisinya di bawah.
+
+
+## Task
+Membuat coding java dari soal2 yang diberikan
