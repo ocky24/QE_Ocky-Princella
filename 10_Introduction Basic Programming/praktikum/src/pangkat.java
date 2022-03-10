@@ -13,7 +13,6 @@ public class pangkat {
 
         int hasil=x;
         int z = 1;
-       // int rumus;
         int i;
 
         for (i = 1; i < n; i++) {
