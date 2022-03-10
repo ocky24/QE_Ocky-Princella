@@ -1,3 +1,4 @@
+// sudah aman
 import java.util.Scanner;
 
 public class palindrome {

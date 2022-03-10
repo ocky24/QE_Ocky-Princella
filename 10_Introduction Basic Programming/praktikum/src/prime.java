@@ -1,24 +1,22 @@
-
-
-//ini dari google copas dulu bentar
-
+import java.util.Scanner;
 public class prime {
 
     public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Masukkan angka yang ingin dicek: ");
+        int num = scanner.nextInt();
 
-        int num = 29;
-        boolean flag = false;
+        boolean kondisi = false;
         for (int i = 2; i <= num / 2; ++i) {
-            // condition for nonprime number
+            // kondisi untuk bilangan non prima
             if (num % i == 0) {
-                flag = true;
+                kondisi = true;
                 break;
             }
         }
-
-        if (!flag)
-            System.out.println(num + " is a prime number.");
+        if (!kondisi)
+            System.out.println(num + " adalah bil. Prima");
         else
-            System.out.println(num + " is not a prime number.");
+            System.out.println(num + " bukan bil. prima");
     }
 }

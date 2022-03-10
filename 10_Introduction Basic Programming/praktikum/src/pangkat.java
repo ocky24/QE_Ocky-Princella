@@ -1,6 +1,4 @@
-
-//cape deh
-
+// sudah aman
 import java.util.Scanner;
 public class pangkat {
     public static void main(String[] args) {
@@ -13,14 +11,20 @@ public class pangkat {
         System.out.println("Masukkan nilai n : ");
         int n = scanner2.nextInt();
 
-        int hasil;
+        int hasil=x;
         int z = 1;
-        int rumus;
+       // int rumus;
         int i;
-        for (i = 1; i < n; i++) {
-            hasil = (x * x);
-            System.out.println("Hasil x pangkat n adalah = " + hasil);
-        }
 
+        for (i = 1; i < n; i++) {
+            hasil = (hasil * x);
+//            System.out.println("pengulangan ke " + i + " nilai x nya : " + hasil);
+        }
+        System.out.println("Hasil x pangkat n adalah = " + hasil);
+//        System.out.println(i);
+//        System.out.println(x);
+//        System.out.println(n);
     }
 }
+
+

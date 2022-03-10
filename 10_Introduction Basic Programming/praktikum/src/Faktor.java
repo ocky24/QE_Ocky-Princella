@@ -1,3 +1,4 @@
+// sudah aman
 import java.util.Scanner;
 public class Faktor {
     public static void main(String[] args) {

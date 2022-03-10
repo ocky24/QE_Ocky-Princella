@@ -1,3 +1,4 @@
+//sudah aman
 public class Luas_Segitiga {
    public static float rumusluas(float alas, float tinggi) {
     float luassegitiga = (alas*tinggi)/2;
