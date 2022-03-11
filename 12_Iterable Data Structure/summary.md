@@ -77,4 +77,4 @@
 3. nah, dalamnya ada iterator ithas gitu2
 4. tmapilin sesuai di enumnya.
 
-
+.
