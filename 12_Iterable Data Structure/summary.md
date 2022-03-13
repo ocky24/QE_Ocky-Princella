@@ -77,4 +77,24 @@
 3. nah, dalamnya ada iterator ithas gitu2
 4. tmapilin sesuai di enumnya.
 
-.
+## SortedSet
+1. set yg dapat mengelola urutan dari data
+2. ada method sub set, tail set, headset. kita bisa liat bagian kepala dan ekor dari set tersebut.
+3. ada navigable (berupa interface) dan tree set.
+
+## Queue
+1. mengimplementasi mekanisme FIFO data yang lebih dulu dimasukan akan lebih dulu diambil
+2. diibaratkan sebagai antrian.
+3. untuk mengambil data pada queue, maka menggunakan dequeue, dan ambil data paling depan dari queue
+4. untuk menambah data pake end queue (?)
+5. kita gabisa menyela antrian, data akan dimasukan paling akhir.
+6. method poll => mengambil data berdasarkan urutan prioritasnya
+7. kalo di sana, diatur oleh priority
+
+## Deque
+1. sebuah queue tapi memiliki sebuah ujung
+2. untuk menambah pake add first atau add last, bisa nambah di depan atau di belakang
+3. get first, atau get last. (ambil data)
+4. kita bisa mengoperasikan data depan dan belakang dari queue, makanya kita sebutnya double em.. queue?
+5. tambah data pake offerlast.
+

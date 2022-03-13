@@ -37,10 +37,13 @@ public class MenghitungLuasKeliling {
         double kpersegi = kelPersegi(4);
         double ksegitiga = kelSegitiga(3, 4);
         double kpp = kelPP(7, 8);
+
+
         System.out.println("output Luas : ");
         System.out.println("Luas persegi adalah : " + persegi);
         System.out.println("Luas segitiga adalah : " + segitiga);
         System.out.println("Luas persegi panjang adalah : " + pp);
+
         System.out.println("output keliling : ");
         System.out.println("keliling persegi adalah : " + kpersegi);
         System.out.println("keliling segitiga adalah : " + ksegitiga);

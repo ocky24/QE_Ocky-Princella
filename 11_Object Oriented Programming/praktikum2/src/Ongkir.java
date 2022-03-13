@@ -20,13 +20,12 @@ public class Ongkir {
         } else {
             uang = "Dimensi tidak valid";
         }
-
         return uang;
     }
 
     public static void main(String[] args) {
         double dimensi = Menghitungvolume.vBalok(5, 2, 4);
-        String ongkir = harga(1.0F, dimensi);
+        String ongkir = harga(0.2F, dimensi);
         System.out.println("Harga ongkir sebesar : " + ongkir);
     }
 
