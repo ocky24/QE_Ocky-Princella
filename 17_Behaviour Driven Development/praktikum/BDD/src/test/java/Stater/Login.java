@@ -86,6 +86,35 @@ public class Login {
         System.out.println("status telah di post");
     }
 
+    @Step("I click search bar")
+    public void clickSearchBar(){
+        System.out.println("Klik search bar");
+    }
+
+    @Step("my search histories are appeared")
+    public void searchHistoryAppeared(){
+        System.out.println("Riwayat pencarian muncul");
+    }
+
+    @Step("I click delete history")
+    public void clickDeleteHistory(){
+        System.out.println("Klik delete history");
+    }
+
+    @Step("validation pop up will be appeared")
+    public void popUpAppeared(){
+        System.out.println("Muncul pop up validasi");
+    }
+
+    @Step("I click delete history on pop up")
+    public void clickDeleteHistoryPopUp(){
+        System.out.println("Klik hapus riwayat pada pop up");
+    }
+
+    @Step("my histories are deleted")
+    public  void HmyHistoryDeleted(){
+        System.out.println("Riwayat pencarian terhapus");
+    }
 
 
 }

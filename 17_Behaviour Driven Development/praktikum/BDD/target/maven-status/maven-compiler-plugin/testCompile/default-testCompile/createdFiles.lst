@@ -3,3 +3,4 @@ CucumberTestSuite.class
 stepdefinitions\posting.class
 stepdefinitions\LoginSteps.class
 stepdefinitions\changePhoto.class
+stepdefinitions\searchSteps.class
