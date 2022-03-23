@@ -1,0 +1,6 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"change photo","As user I can change my photo successfully","SUCCESS","2022-03-23T18:58:27.14+07:00[Asia/Bangkok]","0.0","3.22"
+"Login","As user I can login successfully","SUCCESS","2022-03-23T18:58:30.466+07:00[Asia/Bangkok]","0.0","0.12"
+"Login","As user I can not login using invalid username","SUCCESS","2022-03-23T18:58:30.624+07:00[Asia/Bangkok]","0.0","0.1"
+"Login","As user I can not login using invalid password","SUCCESS","2022-03-23T18:58:30.781+07:00[Asia/Bangkok]","0.0","0.09"
+"Posting text","As user I can post my status","SUCCESS","2022-03-23T18:58:30.993+07:00[Asia/Bangkok]","0.0","0.2"
