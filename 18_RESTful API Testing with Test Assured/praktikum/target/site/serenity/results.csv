@@ -1,2 +1,2 @@
 "Story","Title","Result","Date","Stability","Duration (s)"
-"As user I want to get information about books","GET - As user I want to get information about books without authorized","ERROR","2022-04-01T20:31:31.608+07:00[Asia/Bangkok]","0.0","9.75"
+"As admin I want to make new account","POST - As admin I want to make new user account","SUCCESS","2022-04-01T21:52:04.326+07:00[Asia/Bangkok]","0.0","28.67"

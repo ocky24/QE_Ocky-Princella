@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: As admin I want to make new account
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 30.319 s - in As admin I want to make new account

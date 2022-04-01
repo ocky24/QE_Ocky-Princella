@@ -22,8 +22,8 @@ public class kumpulan {
     @Step("I send POST HTTP request")
     public void sendPostHTTPrequest() {
         JSONObject requestBody = new JSONObject();
-        requestBody.put("userName","ockyprincellaaaaa");
-        requestBody.put("password","Password!222");
+        requestBody.put("userName","ockyprincll");
+        requestBody.put("password","Password!223");
 
         SerenityRest.given().header("Content-Type","application/json").body(requestBody.toJSONString()).post(setPostApiEndpoints());
 
@@ -36,8 +36,9 @@ public class kumpulan {
 
     @Step("I receive valid data for new user")
     public void validDataNewUser(){
-        restAssuredThat(response -> response.body("username",equalTo("ockyprincellaaaaa")));
-        restAssuredThat(response -> response.body("userId",equalTo("string")));
+        Response response = SerenityRest.lastResponse();
+        String username = response.getBody().jsonPath().get("username");
+        Assert.assertEquals(username,"ockyprincll" );
     }
 
     @Step("user get API endpoint")
@@ -54,8 +55,8 @@ public class kumpulan {
     @Step("validate ISBN and Title")
     public void validateISBNandTitle(){
         Response response = SerenityRest.lastResponse();
-        String isbn = response.getBody().jsonPath().get("books.isbn[1]");
-        String title = response.getBody().jsonPath().get("books.title");
+        String isbn = response.getBody().jsonPath().get("books.isbn[0]");
+        String title = response.getBody().jsonPath().get("books.title[0]");
         Assert.assertEquals(isbn,"9781449325862" );
         Assert.assertEquals(title,"Git Pocket Guide" );
     }

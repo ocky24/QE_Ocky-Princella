@@ -1,6 +1,6 @@
 Feature: As admin I want to make new account
 
-
+  @coba
   Scenario: POST - As admin I want to make new user account
     Given I set POST API endpoints
     When I send POST HTTP request

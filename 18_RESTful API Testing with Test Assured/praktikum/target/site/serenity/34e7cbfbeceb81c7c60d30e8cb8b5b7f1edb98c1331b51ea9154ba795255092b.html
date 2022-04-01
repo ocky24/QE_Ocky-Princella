@@ -148,7 +148,7 @@
             $("#requirements-tabs").tabs();
             $("#test-tabs").tabs();
 
-            var requirementsTree = [{"text":"As user I want to get information about books","type":"feature","href":"34e7cbfbeceb81c7c60d30e8cb8b5b7f1edb98c1331b51ea9154ba795255092b.html","nodes":[],"selectable":false,"tags":["\u003ca href\u003d\u0027##beforetable\u0027\u003e\u003ci class\u003d\u0027fa fa-exclamation-triangle error-icon \u0027 title\u003d\u0027ERROR\u0027\u003e\u003c/i\u003e\u003c/a\u003e","\u003cspan class\u003d\u0027feature-count\u0027\u003e1 scenario\u003c/span\u003e"]}];
+            var requirementsTree = [];
 
             $('#tree').treeview({
                 data: requirementsTree,
@@ -217,7 +217,7 @@
             <a href="#"><i class="fa fa-comments-o"></i> Features</a>
         </li>
     </ul>
-    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 01-04-2022 20:31</span>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated </span>
     <br style="clear:left"/>
 </div>
 
@@ -231,23 +231,11 @@
                     <div>
                         <div clas="table">
                             <div class="row">
-                                <div class="col-sm-8">
+                                    <div class="col-sm-12">
                                         <span>
                                             <h2><i class="fa fa-book"></i> Feature:  As User I Want To Get Information About Books</h2>
                                         </span>
                                     </div>
-                                        <div class="col-sm-4">
-                                        <span class="feature-tags">
-                                                <p class="tag">
-                                                    <span class="badge tag-badge" style="background:default;">
-                                                        <i class="fa fa-tag"></i>&nbsp;<a class="tagLink"
-                                                                                          style="background:default;"
-                                                                                          href="23d0002afe87271ef20c36fde82eef49f780e21672815a33ee3d9997aae18186.html">Coba
-                                                        (tag)</a>
-                                                    </span>
-                                                </p>
-                                        </span>
-                                        </div>
                                 </div>
                             </div>
                         </div>
@@ -280,74 +268,10 @@
                                         <div class="row">
                                             <div class="col-sm-12">
 
-                                                    <!--- TOC --->
-                                                    <div id="toc">
-                                                        <h3>Overview</h3>
-                                                        <table class="table" id="toc-table">
-                                                                        <tr>
-                                                                            <td style="width:95%;" class="toc-title">
-                                                                                <span class="orphan-scenario-toc-entry">
-                                                                                    <a href="#efb40b44a7c7328c2fab9f40eb4ee401f9621e54da9abc760328f49af2fa993f" title="View scenario details">
-                                                                                        <i class="far fa-comment-dots"></i> Scenario: GET - As user I want to get information about books without authorized
-                                                                                    </a>
-                                                                                </span>
-                                                                            </td>
-                                                                            <td style="width:5%;">
-                                                                                <table>
-                                                                                    <tr>
-                                                                                        <td>
-                                                                                            <a style="margin-left:0.5em;padding-right: 1.5em;"
-                                                                                               href="e1d487745e86be464445bfb8f2a51bda9bce5526e5a1b3dc59883357a1768340.html"
-                                                                                               title="View test results">
-                                                                                                <a href='##beforetable'><i class='fa fa-exclamation-triangle error-icon ' title='ERROR'></i></a>
-                                                                                                </a>
+                                                    <h3>Requirements Overview</h3>
 
+                                                    <div id="tree"></div>
 
-                                                                                        </td>
-                                                                                            <td>
-                                                                                                <a style="margin-left:0.5em;padding-right: 1.5em;"
-                                                                                                   href="e1d487745e86be464445bfb8f2a51bda9bce5526e5a1b3dc59883357a1768340.html"
-                                                                                                   title="View test results">
-                                                                                                    <i class="fas fa-search-plus"></i>
-                                                                                                </a>
-                                                                                            </td>
-                                                                                    </tr>
-                                                                                </table>
-                                                                            </td>
-                                                                        </tr>
-                                                        </table>
-                                                    </div>
-                                                    <!--- END OF TOC --->
-
-                                                    <h3>Scenarios</h3>
-
-                                                        <a name="fa6432dd-cbed-476a-ad81-cd93de625fea" ></a>
-
-
-                                                            <div class="scenario-docs card" id="efb40b44a7c7328c2fab9f40eb4ee401f9621e54da9abc760328f49af2fa993f">
-                                                                <div class="scenario-docs card-header error"
-                                                                     style="min-height:1.5em;">
-                                                                    <div>
-                                                            <span class="scenario-heading">
-                                                                <a href="e1d487745e86be464445bfb8f2a51bda9bce5526e5a1b3dc59883357a1768340.html"
-                                                                   title="View test results">Scenario: GET - As user I want to get information about books without authorized</a>
-                                                            </span>
-                                                                        <span class="scenario-result-icon">
-                                                                
-
-                                                                                <a href='##beforetable'><i class='fa fa-exclamation-triangle error-icon ' title='ERROR'></i></a>
-                                                            </span>
-                                                                    </div>
-                                                                </div>
-                                                                <div class="scenario-docs card-body">
-                                                                        <p>Given user get API endpoint</p>
-                                                                        <p>When user send Get HTTP request</p>
-                                                                        <p>Then user receive valid HTTP response code 200</p>
-                                                                        <p>And validate ISBN and Title</p>
-                                                                    <div class="examples">
-                                                                    </div>
-                                                                </div>
-                                                            </div>
                                             </div>
                                         </div>
                                     </div>
@@ -356,41 +280,7 @@
                                 <div id="results" class="tab-pane fade">
                                     <div class="container-fluid">
                                         <div class="row">
-                                            <div class="col-sm-4">
-
-                                                <div style="width:300px;" class="chart-container automated-and-manual-results">
-                                                    <div class="ct-chart ct-square"></div>
-                                                </div>
-                                                <script>
-
-                                                    var labels = [' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', '100%', ' ', ' ', ' '];
-                                                    // Our series array that contains series objects or in this case series data arrays
-
-                                                    var series = [{meta: 'Passing tests (automated)', value: 0}, {meta: 'Passing tests (manual)', value: 0}, {meta: 'Pending tests (automated)', value: 0}, {meta: 'Pending tests (manual)', value: 0}, {meta: 'Ignored tests (automated)', value: 0}, {meta: 'Ignored tests (manual)', value: 0}, {meta: 'Skipped tests (automated)', value: 0}, {meta: 'Skipped tests (manual)', value: 0}, {meta: 'Failing tests (automated)', value: 0}, {meta: 'Failing tests (manual)', value: 0}, {meta: 'Broken tests (automated)', value: 1}, {meta: 'Broken tests (manual)', value: 0}, {meta: 'Compromised tests (automated)', value: 0}, {meta: 'Compromised tests (manual)', value: 0}];
-
-                                                    // As options we currently only set a static size of 300x200 px. We can also omit this and use aspect ratio containers
-                                                    // as you saw in the previous example
-                                                    var options = {
-                                                        width: 350,
-                                                        height: 300
-                                                    };
-
-                                                    $('a[data-toggle="tab"]').on('shown.bs.tab', function (e) {
-                                                        new Chartist.Pie('.ct-chart', {
-                                                            series: series,
-                                                            labels: labels,
-                                                        }, {
-                                                            donut: true,
-                                                            donutWidth: 60,
-                                                            donutSolid: true,
-                                                            startAngle: 270,
-                                                            showLabel: true
-                                                        }, options);
-                                                    });
-
-                                                </script>
-                                            </div>
-                                            <div class="col-sm-8">
+                                                <div class="col-sm-12">
 
                                                     <table class="table">
                                                         <thead>
@@ -433,8 +323,8 @@
                                                             <td class="automated-stats"> </td>
                                                         </tr>
                                                         <tr>
-                                                                    <td colspan="3"><a href="b4fff22a6a5af0998a3bd26fcb5d26d7f5d253906b2137d4b4b85d1a9c45d6c2.html"><i
-                                                                                    class='fa fa-times failure-icon'></i>&nbsp;<em>Unsuccessful</em></a>
+                                                                    <td colspan="3"><i
+                                                                                class='fa fa-times failure-icon'></i>&nbsp;<em>Unsuccessful</em></a>
                                                                     </td>
 
                                                         </tr>
@@ -448,11 +338,11 @@
                                                             <td class="automated-stats"> </td>
                                                         <tr>
                                                                 <td class="aggregate-result-count indented-error-category">
-                                                                    <a href="8aaa0a340cbe80462e9f2061baad7dd740a26e5a2a3f7add2209b2ad8f65b5c1.html"><i
-                                                                                class='fa fa-exclamation-triangle error-icon'></i>&nbsp;Broken</a>
+                                                                    <i
+                                                                            class='fa fa-exclamation-triangle error-icon'></i>&nbsp;Broken
                                                                 </td>
-                                                            <td class="automated-stats">1</td>
-                                                            <td class="automated-stats">100%</td>
+                                                            <td class="automated-stats">0</td>
+                                                            <td class="automated-stats"> </td>
                                                         <tr>
                                                                 <td class="aggregate-result-count indented-error-category">
                                                                     <i
@@ -463,7 +353,7 @@
                                                         </tr>
                                                         <tr class="summary-stats">
                                                             <td class="aggregate-result-count">Total</td>
-                                                            <td class="automated-stats">1</td>
+                                                            <td class="automated-stats">0</td>
                                                             <td class="automated-stats"></td>
                                                         </tr>
                                                         </tbody>
@@ -485,11 +375,11 @@
                                                         </thead>
                                                         <tbody>
                                                         <tr>
-                                                            <td>9s</td>
                                                             <td>0ms</td>
-                                                            <td>9s</td>
-                                                            <td>9s</td>
-                                                            <td>9s</td>
+                                                            <td>0ms</td>
+                                                            <td>0ms</td>
+                                                            <td>0ms</td>
+                                                            <td>0ms</td>
                                                         </tr>
                                                         </tbody>
                                                     </table>
@@ -501,32 +391,7 @@
                                                 <div class="col-sm-12">
                                                     <h3><i class="fas fa-cogs"></i> Automated Tests</h3>
 
-                                                        <table class="scenario-result-table table"
-                                                               id="scenario-results">
-                                                            <thead>
-                                                            <tr>
-                                                                <th class="test-name-column">Scenario</th>
-                                                                <th>Steps</th>
-                                                                <th>Started</th>
-                                                                <th>Duration</th>
-                                                                <th>Result</th>
-                                                            </tr>
-                                                            </thead>
-                                                            <tbody>
-                                                                <tr class="scenario-result ERROR">
-                                                                    <td>
-                                                                            <a href="e1d487745e86be464445bfb8f2a51bda9bce5526e5a1b3dc59883357a1768340.html">GET - As user I want to get information about books without authorized</a>
-                                                                    </td>
-                                                                    <td>4</td>
-                                                                    <td>20:31:31</td>
-                                                                    <td>9s 748ms</td>
-                                                                    <td>
-                                                                            <a href='##beforetable'><i class='fa fa-exclamation-triangle error-icon ' title='ERROR'></i></a> <span
-                                                                                style="display:none">ERROR</span>
-                                                                    </td>
-                                                                </tr>
-                                                            </tbody>
-                                                        </table>
+                                                        No automated tests were executed
 
                                                 </div>
                                             </div>

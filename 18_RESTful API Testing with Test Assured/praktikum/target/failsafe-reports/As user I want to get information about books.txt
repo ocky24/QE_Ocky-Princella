@@ -1,7 +1,0 @@
--------------------------------------------------------------------------------
-Test set: As user I want to get information about books
--------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 10.132 s <<< FAILURE! - in As user I want to get information about books
-As user I want to get information about books.GET - As user I want to get information about books without authorized  Time elapsed: 10.132 s  <<< ERROR!
-java.lang.ClassCastException: java.util.ArrayList cannot be cast to java.lang.String
-

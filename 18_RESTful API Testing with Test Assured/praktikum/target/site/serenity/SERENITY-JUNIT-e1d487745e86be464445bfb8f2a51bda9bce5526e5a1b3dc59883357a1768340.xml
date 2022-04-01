@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?><testsuite errors="1" failures="0" name="As user I want to get information about books" skipped="0" tests="1" time="9.75" timestamp="2022-04-01 08:31:31"><testcase name="GET - As user I want to get information about books without authorized"><error message="java.util.ArrayList cannot be cast to java.lang.String" type="java.lang.ClassCastException">java.util.ArrayList cannot be cast to java.lang.String</error><system-err>java.util.ArrayList cannot be cast to java.lang.String&#13;
-stater.kumpulan.kumpulan.validateISBNandTitle(kumpulan.java:58)&#13;
-stater.stepdefinitions.bookSteps.validateISBNandTitle(bookSteps.java:30)&#13;
-✽.validate ISBN and Title(file:///C:/Users/Ocky/Documents/QE_Ocky-Princella/18_RESTful%20API%20Testing%20with%20Test%20Assured/praktikum/src/test/resources/features/books.feature:8)&#13;
-</system-err></testcase></testsuite>
