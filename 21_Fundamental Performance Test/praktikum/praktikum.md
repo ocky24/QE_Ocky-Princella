@@ -5,4 +5,4 @@
 
 
 2. Bagaimana contoh sistem yang kurang stabil?
-- jawab:
+- jawab: sistem yang kurang stabil bisa dilihat dari waktu sistem merespon request-an. Sistem yang kurang stabil jika terjadi perbedaann waktu respon yang cukup signifikan ketika jumlah request berbeda-beda. 
