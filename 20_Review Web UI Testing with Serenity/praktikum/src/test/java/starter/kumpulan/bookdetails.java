@@ -20,9 +20,4 @@ public class bookdetails extends PageObject {
         $(bookstorepage()).isDisplayed();
     }
 
-
-
-
-
-
 }
